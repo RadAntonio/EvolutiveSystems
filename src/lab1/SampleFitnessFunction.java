@@ -1,3 +1,5 @@
+package lab1;
+
 import org.jgap.FitnessFunction;
 import org.jgap.IChromosome;
 

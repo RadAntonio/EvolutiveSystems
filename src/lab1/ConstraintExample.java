@@ -1,3 +1,5 @@
+package lab1;
+
 import org.jgap.*;
 import org.jgap.impl.*;
 
