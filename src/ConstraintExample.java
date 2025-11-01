@@ -7,7 +7,7 @@ public class ConstraintExample {
         double targetAmount = 1.84;
         Configuration conf = new DefaultConfiguration();
         Configuration.resetProperty(Configuration.PROPERTY_FITEVAL_INST);
-        conf.setFitnessEvaluator(new DefaultFitnessEvaluator());
+        conf.setFitnessEvaluator(new DeltaFitnessEvaluator());
         conf.setPreservFittestIndividual(true);
         conf.setKeepPopulationSizeConstant(true);
 
